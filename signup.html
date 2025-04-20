@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VerseVault Signup</title>
+    <link rel="stylesheet" href="signup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="login-container">
+        <header class="brand-header">
+            <h1 class="logo">VerseVault</h1>
+            <p class="tagline">Begin Your Reading Journey</p>
+        </header>
+        
+        <form class="login-form">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Jane Reader" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="reader@versevault.com" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="••••••••" required>
+            </div>
+
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" placeholder="••••••••" required>
+            </div>
+            
+            <button type="submit" class="login-btn">Create Account</button>
+            
+            <div class="secondary-actions">
+                <a href="main.html" class="skip-login">Continue as Guest</a>
+                <p class="existing-account">Already have an account? <a href="login.html">Login Here</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
